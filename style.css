@@ -1,4 +1,4 @@
-body {background-color: #2D2D2D;
+body {background-color: #1a1918;
 }
 
 input[type=search_header] {
@@ -65,8 +65,11 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
     max-width: 1400px;
-    position: relative;
-    margin: auto;
+    position: absolute;
+    margin-top: 5%;
+    border: 2px solid rgba(207,8,8,0.8);
+    margin-left: 13.5%;
+    z-index: -1;
 }
 
 /* Next und prev Button  */
