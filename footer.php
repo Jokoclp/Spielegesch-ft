@@ -6,8 +6,9 @@
     <title>Header</title>
 
 </head>
-<body>
-<div class="footer">
+
+<footer>
+
 
     <ul>
         <li><h3 style="color:white;">Hilfe und Service</h3></li>
@@ -34,7 +35,7 @@
     <ul>
         <img style="margin-left: 20px;margin-top: 45px;" src="img/logo_small.png" >
     </ul>
-</div>
-</body>
+
+</footer>
 
 </html>

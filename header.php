@@ -7,11 +7,11 @@
 
 </head>
 
-  <body>
+  <header>
   <div class="header">
       <div class="btn-group">
-          <button onclick="location.href='seite1.html'">Playstation 4</button>
-          <button onclick="location.href='seite1.html'">Xbox One</button>
+          <button onclick="location.href='playstation4.php'">Playstation 4</button>
+          <button onclick="location.href='xboxone.php'">Xbox One</button>
           <button onclick="location.href='seite1.html'">Switch</button>
       </div>
       <div class="logo">
@@ -33,25 +33,9 @@
 
 
 
-      <div class="slideshow-container">
-          <div class="mySlides fade">
-              <img src="img/slide-2.png" >
-          </div>
 
-          <div class="mySlides fade">
-              <img src="img/slide-1.png" >
-          </div>
-          <div class="mySlides fade">
-              <img src="img/slide-3.png" >
-          </div>
-
-
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
   </div>
-  </body>
+  </header>
 
 </html>
 
