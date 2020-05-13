@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Header</title>
+    <title>Footer</title>
 
 </head>
 
@@ -12,14 +12,14 @@
 
     <ul>
         <li><h3 style="color:white;">Hilfe und Service</h3></li>
-        <li><a href="/impressum.php" >Impressum</a></li>
-        <li><a href="/impressum.php" >Datenschutz</a></li>
+        <li><a href="impressum.php" >Impressum</a></li>
+        <li><a href="datenschutz.php" >Datenschutz</a></li>
 
     </ul>
     <ul>
         <li><h3 style="color:white;">Megagame</h3></li>
-        <li><a href="/impressum.php" >Über Uns</a></li>
-        <li><a href="/impressum.php" >Karriere</a></li>
+        <li><a href="ueberuns.php" >Über Uns</a></li>
+        <li><a href="anfahrt.php" >Anfahrt</a></li>
 
     </ul>
     <ul>
