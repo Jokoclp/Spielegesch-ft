@@ -3,15 +3,25 @@ body {background-color: #1a1918;
 }
 .startseite{
     margin-left: 13.5%;
+    color: white;
 }
 .unterseite{
     margin-top: 10%;
     margin-left: 13.5%;
+    max-width: 1400px;
+    color: white;
+}
+iframe {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    display: block;
 }
 /* Footer */
 footer {
-    margin-top: ;
     margin-left: 27%;
+    margin-top: 7%;
     height:60px;
 }
 
@@ -150,7 +160,12 @@ ul {
 
 img {vertical-align: middle;}
 
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 /* Hyperlinks-Style*/
 a:visited {
     color: white;
