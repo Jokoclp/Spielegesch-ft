@@ -161,13 +161,15 @@ img {vertical-align: middle;}
 
 .text_spiele {
 
-    min-height: 650px;
+    min-height: 620px;
     margin-left: 30%
 
 }
 .bilder_spiele {
     min-height: 300px;
     min-width: 370px;
+    max-height: 600px;
+    max-width: 500px;
     width: 24%;
     float: left;
 
