@@ -21,7 +21,7 @@
     require("db/dbcon.php");
 
     //Abfragen
-    $name = $link->query("SELECT * from artikel.spiele where konsolen_id=10001");
+    $name = $link->query("SELECT * from artikel.spiele where konsolen_id like '10%'");
 
     //Ergebnis darstellen
     while ($row = $name->fetch_assoc()) {
