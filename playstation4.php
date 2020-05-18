@@ -16,7 +16,35 @@
 
 <div class="unterseite">
 
-    <p>tersttetsttsat</p><p>tersttetsttsat</p><p>tersttetsttsat</p><p>tersttetsttsat</p><p>tersttetsttsat</p><p>tersttetsttsat</p>
+    <?php
+    //Verbindung starten
+    require("db/dbcon.php");
+
+    //Abfragen
+    $name = $link->query("SELECT * from artikel.spiele where konsolen_id=10001");
+
+    //Ergebnis darstellen
+    while ($row = $name->fetch_assoc()) {
+        echo "<img class=bilder_spiele src=\"";
+        echo $row ['Pfad'];
+        echo "\" >";
+        echo "<div class=\"text_spiele\">";
+        echo "<h1>";
+        echo $row['Name'];
+        echo "</h1>";
+        echo "USK:";
+        echo $row['USK_Einstufung'];
+        echo "<br>";
+        echo "Erscheinungsdatum: ";
+        echo $row['Erscheinungsdatum'];
+        echo "<br>";
+        echo "<br>";
+        echo "</div>";
+    }
+
+    //Verbindung schließen
+    require("db/dbclose.php");
+    ?>
 
 </div>
 

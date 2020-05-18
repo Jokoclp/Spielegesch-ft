@@ -2,6 +2,7 @@ body {background-color: #1a1918;
     font-family: 'Roboto', sans-serif;
 }
 .startseite{
+    max-width: 73%;
     margin-left: 13.5%;
     color: white;
 }
@@ -156,10 +157,21 @@ ul {
     list-style-type:none;
 }
 
-
-
 img {vertical-align: middle;}
 
+.text_spiele {
+
+    min-height: 500px;
+    margin-left: 30%
+
+}
+.bilder_spiele {
+    min-height: 300px;
+    min-width: 370px;
+    width: 24%;
+    float: left;
+
+}
 .center {
     display: block;
     margin-left: auto;
