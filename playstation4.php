@@ -32,13 +32,24 @@
         echo "<h1>";
         echo $row['Name'];
         echo "</h1>";
+        echo "<h3>";
         echo "USK:";
         echo $row['USK_Einstufung'];
+        echo "</h3>";
         echo "<br>";
-        echo "Erscheinungsdatum: ";
+        echo "Erschienen am: ";
         echo $row['Erscheinungsdatum'];
         echo "<br>";
         echo "<br>";
+        echo "<br>";
+        echo $row['Beschreibung'];
+        echo "<br>";
+        echo "<div class=\"btn-group4\">";
+        echo "<button >";
+        echo $row['Preis'];
+        echo ",00 €";
+        echo "</button>";
+        echo "</div>";
         echo "</div>";
     }
 

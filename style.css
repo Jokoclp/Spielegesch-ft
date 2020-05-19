@@ -129,7 +129,7 @@ input[type=search_header]:focus {
     transition-duration: 0.4s;
 }
 .btn-group2 button:hover {
-    background-color: darkred;
+    background-color: #8b0000;
 }
 .btn-group3 button {
     width: 3%;
@@ -168,11 +168,27 @@ img {vertical-align: middle;}
 .bilder_spiele {
     min-height: 300px;
     min-width: 370px;
-    max-height: 600px;
+    max-height: 550px;
     max-width: 500px;
     width: 24%;
     float: left;
 
+}
+.btn-group4 button {
+    width: 10%;
+    min-height: 50px;
+    min-width: 200px;
+
+    float: right;
+    background-color: #F33A2B;
+    color: white;
+    padding: 10px;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 .center {
     display: block;
