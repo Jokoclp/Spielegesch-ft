@@ -30,8 +30,11 @@
           <button onclick="location.href='anfahrt.php'">Anfahrt</button>
           <button onclick="location.href='ueberuns.php'">Über Uns</button>
       </div>
-      <input type="search_header" name="search" placeholder="Suchen...">
+      <div class="btn-group5">
+          <button onclick="location.href='ueberuns.php'">Suchen...</button>
 
+      <input type="search_header" name="search" placeholder="Suchen...">
+      </div>
 
 
 
