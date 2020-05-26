@@ -1,3 +1,8 @@
+/*  CSS-Megagame
+    Autor: Megagame GmbH
+*/
+
+
 body {background-color: #1a1918;
     font-family: 'Roboto', sans-serif;
 }
@@ -12,6 +17,7 @@ body {background-color: #1a1918;
     max-width: 1400px;
     color: white;
 }
+
 iframe {
     margin: auto;
     width: 60%;
@@ -19,24 +25,33 @@ iframe {
     padding: 10px;
     display: block;
 }
-/* Footer */
+/* Footer                                       *********************
+
+*/
 footer {
     margin-left: 27%;
     margin-top: 7%;
     height:60px;
 }
-
-.zeit {
+.footer_zeit {
     line-height: 50%;
     color: white;
 }
-/* Header */
+
+
+/* Header                                       *********************
+
+*/
 .header {
     max-width: 100%;
     height: 10px;
     margin-top: 10px;
 }
-/* Slideshow container */
+
+
+/* Slideshow im Header                          *********************
+
+*/
 .slideshow-container {
     max-width: 1400px;
     position: relative;
@@ -47,7 +62,8 @@ footer {
 .mySlides {
     display: none
     }
-/* Next und prev Button  */
+
+/* Next und prev Button */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -62,20 +78,11 @@ footer {
     border-radius: 0 3px 3px 0;
     user-select: none;
     }
-/* Next BUtton auf rechte Seite */
+/* Next Button auf rechte Seite */
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
     }
-
-/* fading */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
 
 input[type=search_header] {
     width: 5%;
@@ -97,41 +104,13 @@ input[type=search_header]:focus {
     margin-left: 36%;
     z-index: -1;
 }
-.btn-group button {
-    width: 9%;
-    min-height: 50px;
-    background-color: #F33A2B;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    border: 0px;
-    float: left;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    }
 
-.btn-group button:hover {
-    background-color: darkred;
-    }
 
-.btn-group2 button {
-    width: 10%;
-    min-height: 50px;
-    float: right;
-    background-color: #F33A2B;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    border: 0px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-}
-.btn-group2 button:hover {
-    background-color: #8b0000;
-}
-.btn-group3 button {
+/* Header - Button                              *********************
+
+*/
+
+.btn-startseite button {
     width: 3%;
     background-image: url(img/home.png);
     background-size: 35px 35px;
@@ -148,33 +127,61 @@ input[type=search_header]:focus {
     cursor: pointer;
     transition-duration: 0.4s;
 }
-.btn-group5 button {
-    width: 5%;
+.btn-startseite button:hover {
+    background-color: darkred;
+}
+
+.btn-gruppe1 button {
+    width: 9%;
+    min-height: 50px;
     background-color: #F33A2B;
     color: white;
-    min-height: 50px;
     padding: 15px;
     text-align: center;
     font-size: 16px;
     border: 0px;
+    float: left;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    }
+
+.btn-gruppe2 button {
+    width: 10%;
+    min-height: 50px;
     float: right;
+    background-color: #F33A2B;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border: 0px;
     cursor: pointer;
     transition-duration: 0.4s;
 }
-.btn-group3 button:hover {
+.btn-gruppe2 button:hover {
+    background-color: #8b0000;
+}
+.btn-gruppe1 button:hover {
     background-color: darkred;
 }
-.btn-group5 button:hover {
-    background-color: darkred;
-}
-/* Liste */
+
+/* Footer - Text                                *********************
+
+*/
 ul {
     float: left;
     list-style-type:none;
 }
 
+/* Bild-Formatierung
+
+*/
+
 img {vertical-align: middle;}
 
+/*  Formatierung - Datenbankergebnisse          *********************
+
+*/
 .text_spiele {
 
     min-height: 620px;
@@ -190,7 +197,7 @@ img {vertical-align: middle;}
     float: left;
 
 }
-.btn-group4 button {
+.btn-preis button {
     width: 10%;
     min-height: 50px;
     min-width: 200px;
@@ -206,13 +213,10 @@ img {vertical-align: middle;}
     cursor: pointer;
     transition-duration: 0.4s;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-/* Hyperlinks-Style*/
+
+/* Hyperlinks-Style                             *********************
+
+*/
 a:visited {
     color: white;
     text-decoration: none;

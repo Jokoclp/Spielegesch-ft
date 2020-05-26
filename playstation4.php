@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
     <meta charset="UTF-8">
     <title>Gameshop</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body>
+<!-- Header laden -->
 <?php include('header.php') ?>
 
-
-
 <div class="unterseite">
-
     <?php
     //Verbindung starten
     require("db/dbcon.php");
@@ -44,7 +40,7 @@
         echo "<br>";
         echo $row['Beschreibung'];
         echo "<br>";
-        echo "<div class=\"btn-group4\">";
+        echo "<div class=\"btn-preis\">";
         echo "<button >";
         echo $row['Preis'];
         echo ",00 €";
@@ -56,13 +52,9 @@
     //Verbindung schließen
     require("db/dbclose.php");
     ?>
-
 </div>
 
-
-
-
 </body>
+<!-- Footer laden -->
 <?php include('footer.php') ?>
-<script src="java.js"></script>
 </html>

@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
     <meta charset="UTF-8">
-    <title>Gameshop</title>
+    <title>Gameshop_index</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
-
-    <?php include('header.php') ?>
-
 <body>
 
+<!-- Header laden -->
+<?php include('header.php') ?>
 
-
-
-
-
+<!-- Slider -->
 <div class="slideshow-container">
+
     <div class="mySlides fade">
         <img src="img/slide-2.png" >
     </div>
-
-    <div class="mySlides fade">
+    <div class=" mySlides fade">
         <img src="img/slide-1.png" >
     </div>
     <div class="mySlides fade">
-        <img src="img/slide-3.png" >
+        <img src="img/slide-3.png">
     </div>
 
-
-
+    <!-- Rechts- Links- Buttons im Slider -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 
-
 <div class="startseite" >
-
-<p>
+    <p>
     <br>
     <br>
     <h1 style="text-align: center;"><strong>Herzlich willkommen!</strong></h1>
@@ -51,11 +42,13 @@
     <h3 style="text-align: center;">Guter Service? Bei uns selbstverst&auml;ndlich!</h3>
     <p>Denn wir kommunizieren mit Ihnen. Nach erfolgreichem Einkauf werden unsere Kunden detailliert &uuml;ber den aktuellen Status ihrer Bestellung informiert. Um alle Fragen rund um den Einkauf k&uuml;mmern wir uns. Ihre Anregungen und Kritik nehmen wir ernst, denn wir wollen Ihnen das optimale Einkaufserlebnis bieten. Und das Lob vieler zufriedener Kunden best&auml;tigt unseren Erfolg in diesem Anliegen.</p>
     </p>
-
 </div>
-
-
 </body>
+
+<!-- Footer laden -->
 <?php include('footer.php') ?>
+
+<!-- Javascript für Slider -->
 <script src="java.js"></script>
+
 </html>
