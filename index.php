@@ -11,7 +11,7 @@
 <!-- Header laden -->
 <?php include('header.php') ?>
 
-<!-- Slider -->
+<!-- Bilder-Slider -->
 <div class="slideshow-container">
 
     <div class="mySlides fade">
