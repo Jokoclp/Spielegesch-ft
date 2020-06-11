@@ -16,8 +16,11 @@ function plusSlides(n) {
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
+    /* Slides-Ende */
     if (n > slides.length) {slideIndex = 1}
+    /* Slides-Anfang */
     if (n < 1) {slideIndex = slides.length}
+    /* Nur aktuellen Slide anzeigen */
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
